@@ -1,0 +1,15 @@
+com\sophossolutions\coarchitech\actions\RemoveAdvertisement.class
+com\sophossolutions\coarchitech\page\HomePage.class
+com\sophossolutions\coarchitech\page\ReproductionScreen.class
+com\sophossolutions\coarchitech\page\ResultsPage.class
+com\sophossolutions\coarchitech\utils\Constants.class
+com\sophossolutions\coarchitech\runner\TestCucumberRunner.class
+com\sophossolutions\coarchitech\page\ReproductionScreen$1.class
+com\sophossolutions\coarchitech\hooks\Hooks.class
+com\sophossolutions\coarchitech\actions\LookForSong.class
+com\sophossolutions\coarchitech\utils\Utils.class
+com\sophossolutions\coarchitech\steps\StepDefinitions.class
+com\sophossolutions\coarchitech\hooks\Steps.class
+com\sophossolutions\coarchitech\controller\SeleniumManager.class
+com\sophossolutions\coarchitech\page\BasePage.class
+com\sophossolutions\coarchitech\actions\Action.class

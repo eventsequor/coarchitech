@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.sophossolutions.coarchitech.runner.TestCucumberRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 353.137 sec
