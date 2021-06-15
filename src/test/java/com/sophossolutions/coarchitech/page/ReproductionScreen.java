@@ -14,6 +14,8 @@ public class ReproductionScreen extends BasePage {
 			.xpath("//span[@class='ytp-ad-skip-button-container']/button/div[contains(text(),'Omitir anuncios')]");
 	private By jumpAdvertisementType2 = By
 			.xpath("//span[@class='ytp-ad-skip-button-container']/button/div[contains(text(),'Saltar anuncio')]");
+	private By jumpAdvertisementType3 = By
+			.xpath("//span[@class='ytp-ad-skip-button-container']/button/div[contains(text(),'Skip Ads')]");
 	private By conditionsNoThanks = By.xpath("//yt-formatted-string[contains(text(),'No, gracias')]");
 
 	public ReproductionScreen(WebDriver driver) {
@@ -34,17 +36,20 @@ public class ReproductionScreen extends BasePage {
 					try {
 						element = findElement(jumpAdvertisementType1);
 						element.click();
-						timeSong += 7;
 					} catch (Exception e) {
 					}
 					try {
 						element = findElement(jumpAdvertisementType2);
 						element.click();
-						timeSong += 7;
 					} catch (Exception e) {
 					}
 					try {
 						element = findElement(conditionsNoThanks);
+						element.click();
+					} catch (Exception e) {
+					}
+					try {
+						element = findElement(jumpAdvertisementType3);
 						element.click();
 					} catch (Exception e) {
 					}
